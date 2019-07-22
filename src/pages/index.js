@@ -45,7 +45,7 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Welcome! Please check out my recent projects blow.</h2>
+                            <h2>Welcome! Please check out my recent projects below.</h2>
                         </header>
                         <p>I am full stack software developer with experience in JavaScript, React, Node.js, and PostgreSQL.</p>
                         <ul className="actions">
