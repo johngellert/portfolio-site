@@ -536,7 +536,7 @@
 			}
 		}
 
-		&.avatar {
+		&.profile {
 			border-radius: 100%;
 
 			&:before {
@@ -903,7 +903,7 @@
 		@include vendor('justify-content', 'space-between');
 		background-color:		_palette(accent2, bg);
 		background-attachment:	scroll,								fixed;
-		background-image:		url('images/overlay.png'),			url('../images/bg.jpg');
+		background-image:		url('images/overlay.png'),			url('../images/jenny-caywood-bpXzX6z7AGE-unsplash.jpg');
 		background-position:	top left,							top left;
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								auto 100%;
@@ -941,7 +941,7 @@
 			margin: 0;
 		}
 
-		.image.avatar {
+		.image.profile {
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
 			width: 6.25em;
 		}
