@@ -47,13 +47,16 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>Welcome!</h2>
                         </header>
-                        <p>I am inspired by learning patterns and understanding how things work, and I use this 
+                        {/* I am have a passion for discovering technology solutions to solve human problems.  */}
+                        <p>
+                            I am inspired by learning patterns and understanding how things work, and I use this 
                             curiosity to create new ways of doing things based on my observations. 
                             I am at my best after taking time to let my mind live with new ideas 
                             and materials, though when needed, I am flexible to get hands-on right 
                             away. I stay energized by exercising and taking time to allow my mind 
                             to ponder. In my free time, I enjoy the outdoors with friends and 
-                            family.</p>
+                            family.
+                        </p>
                         <ul className="actions">
                             <li><a href="#" className="button">Learn More</a></li>
                         </ul>

@@ -7,10 +7,10 @@ class Footer extends React.Component {
                 <div className="inner">
                     <ul className="icons">
                         {/* <li><a href="#" className="icon fa-twitter"><span className="label">Twitter</span></a></li> */}
-                        <li><a href="https://github.com/johngellert" className="icon fa-github"><span className="label">Github</span></a></li>
-                        <li><a href="www.linkedin.com/in/johngellert" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
+                        <li><a href="https://github.com/johngellert" target="_blank" className="icon fa-github"><span className="label">Github</span></a></li>
+                        <li><a href="www.linkedin.com/in/johngellert" target="_blank" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
                         {/* <li><a href="#" className="icon fa-dribbble"><span className="label">Dribbble</span></a></li> */}
-                        <li><a href="mailto:gellertjm@gmail.com" className="icon fa-envelope-o"><span className="label">Email</span></a></li>
+                        <li><a href="mailto:gellertjm@gmail.com" target="_blank" className="icon fa-envelope-o"><span className="label">Email</span></a></li>
                     </ul>
                     <ul className="copyright">
                         <li>&copy; John Gellert</li>
