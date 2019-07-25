@@ -95,19 +95,19 @@ class HomeIndex extends React.Component {
                             </div>
                             <div className="4u 12u$(small)">
                                 <ul className="labeled-icons">
-                                    <li>
+                                    {/* <li>
                                         <h3 className="icon fa-home"><span className="label">Address</span></h3>
                                         1234 Somewhere Rd.<br />
                                         Nashville, TN 00000<br />
                                         United States
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                                        000-000-0000
+                                        <a href="tel:+1-320-743-7072">+1 (320) 742-7072</a>
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="#">hello@untitled.tld</a>
+                                        <a href="mailto:gellertjm@gmail.com" target="_blank">gellertjm@gmail.com</a>
                                     </li>
                                 </ul>
                             </div>
