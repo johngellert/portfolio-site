@@ -45,9 +45,17 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Welcome! Please check out my recent projects below.</h2>
+                            <h2>Welcome!</h2>
                         </header>
-                        <p>I am full stack software developer with experience in JavaScript, React, Node.js, and PostgreSQL.</p>
+                        <p>I am a self-driven software developer with a passion for discovering 
+                            technology solutions to solve human problems. I am inspired by 
+                            learning patterns and understanding how things work, and I use this 
+                            curiosity to create new ways of doing things based on my observations. 
+                            I am at my best after taking time to let my mind live with new ideas 
+                            and materials, though when needed, I am flexible to get hands-on right 
+                            away. I stay energized by exercising and taking time to allow my mind 
+                            to ponder. In my free time, I enjoy the outdoors with friends and 
+                            family.</p>
                         <ul className="actions">
                             <li><a href="#" className="button">Learn More</a></li>
                         </ul>
