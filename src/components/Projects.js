@@ -28,7 +28,7 @@ export default function MediaCard() {
         <CardMedia
           className={classes.media}
           image={paytracksScreenshot}
-          title="Contemplative Reptile"
+          title="PayTracks"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
