@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "John Gellert Portfolio",
+    title: "John Gellert",
     author: "John Gellert",
     description: "A Gatsby.js Starter based on Strata by HTML5 UP"
   },

@@ -3,7 +3,10 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
 // import Lightbox from 'react-images'
-import Gallery from '../components/Gallery'
+// import Gallery from '../components/Gallery'
+import Projects from '../components/Projects';
+
+
 
 import thumb01 from '../assets/images/thumbs/01.jpg'
 import thumb02 from '../assets/images/thumbs/02.jpg'
@@ -64,17 +67,18 @@ class HomeIndex extends React.Component {
 
                     <section id="two">
                         <h2>Recent Projects</h2>
-
-                        <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
+                        <Projects />
+                        {/* <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
                             source,
                             thumbnail,
                             caption,
                             description
-                        }))} />
+                        }))} /> */}
 
-                        <ul className="actions">
+
+                        {/* <ul className="actions">
                             <li><a href="#" className="button">Full Portfolio</a></li>
-                        </ul>
+                        </ul> */}
                     </section>
 
                     <section id="three">

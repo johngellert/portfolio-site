@@ -62,6 +62,7 @@ class Gallery extends Component {
                         </Modal>
                     )}
                 </ModalGateway>
+                <pre>{JSON.stringify(this.props, null, 2)}</pre>
             </div>
         );
     }
