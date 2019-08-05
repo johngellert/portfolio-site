@@ -148,8 +148,8 @@ class HomeIndex extends React.Component {
                     rows="4"
                   ></textarea>
                 </div>
-                <div data-netlify-recaptcha="true"></div>
               </div>
+              <div data-netlify-recaptcha="true"></div>
               <button type="submit">Send</button>
             </form>
 
