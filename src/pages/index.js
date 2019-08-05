@@ -82,11 +82,11 @@ class HomeIndex extends React.Component {
         <div id="main">
           <section id="one">
             <header className="major">
-              <h2>About me!</h2>
+              <h2>About me</h2>
             </header>
             {/* I am have a passion for discovering technology solutions to solve human problems.  */}
             <p>
-              I am inspired by learning patterns and understanding how things
+              I'm inspired by learning patterns and understanding how things
               work, and I use this curiosity to create new ways of doing things
               based on my observations. I am at my best after taking time to let
               my mind live with new ideas and materials, though when needed, I
