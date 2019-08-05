@@ -125,7 +125,7 @@ class HomeIndex extends React.Component {
               name="contact"
               method="POST"
               data-netlify-recaptcha="true"
-              netlify-honeypot="bot-field"
+            //   netlify-honeypot="bot-field"
               data-netlify="true"
             >
               <div className="row uniform 50%">
@@ -159,7 +159,7 @@ class HomeIndex extends React.Component {
                   name="contact"
                   method="post"
                   data-netlify-recaptcha="true"
-                  netlify-honeypot="bot-field"
+                //   netlify-honeypot="bot-field"
                   data-netlify="true"
                 >
                   <div className="row uniform 50%">
