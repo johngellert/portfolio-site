@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 // import Gallery from '../components/Gallery'
 import Projects from '../components/Projects';
 
-
+import johnGellertResume from '../assets/files/john-gellert-resume.pdf';
 
 import thumb01 from '../assets/images/thumbs/01.jpg'
 import thumb02 from '../assets/images/thumbs/02.jpg'
@@ -48,7 +48,7 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Welcome!</h2>
+                            <h2>About me!</h2>
                         </header>
                         {/* I am have a passion for discovering technology solutions to solve human problems.  */}
                         <p>
@@ -61,7 +61,7 @@ class HomeIndex extends React.Component {
                             family.
                         </p>
                         <ul className="actions">
-                            <li><a href="#" className="button">Learn More</a></li>
+                            <li><a href={johnGellertResume} target="_blank" className="button">View Resume</a></li>
                         </ul>
                     </section>
 
