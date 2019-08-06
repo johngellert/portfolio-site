@@ -121,40 +121,9 @@ class HomeIndex extends React.Component {
           <section id="three">
             <h2>Get In Touch</h2>
             <p>Feel free to shoot me a message to connect!</p>
-            <form
-              name="contact"
-              method="POST"
-              data-netlify-recaptcha="true"
-            //   netlify-honeypot="bot-field"
-              data-netlify="true"
-            >
-              <div className="row uniform 50%">
-                <div className="6u 12u$(xsmall)">
-                  <input type="text" name="name" id="name" placeholder="Name" />
-                </div>
-                <div className="6u 12u$(xsmall)">
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Email"
-                  />
-                </div>
-                <div className="12u">
-                  <textarea
-                    name="message"
-                    id="message"
-                    placeholder="Message"
-                    rows="4"
-                  ></textarea>
-                </div>
-              </div>
-              <div data-netlify-recaptcha="true"></div>
-              <button type="submit">Send</button>
-            </form>
 
             <div className="row">
-              <div className="8u 12u$(small)">
+              {/* <div className="8u 12u$(small)">
                 <form
                   name="contact"
                   method="post"
@@ -195,7 +164,7 @@ class HomeIndex extends React.Component {
                     <input type="submit" value="Send Message" />
                   </li>
                 </ul>
-              </div>
+              </div> */}
               <div className="4u 12u$(small)">
                 <ul className="labeled-icons">
                   {/* <li>
