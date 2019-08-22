@@ -15,7 +15,7 @@ import panaceaUserScreenshot from '../assets/images/panacea-user-screenshot.png'
 
 const useStyles = makeStyles({
   card: {
-    maxWidth: 345,
+    maxWidth: 500,
   },
   media: {
     height: 250,
