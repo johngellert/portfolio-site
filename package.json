@@ -3,6 +3,9 @@
   "description": "Gatsby default starter",
   "version": "1.0.0",
   "author": "Hunter Chang",
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@material-ui/core": "^4.3.1",
     "gatsby": "^4.2.0",
