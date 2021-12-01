@@ -12,6 +12,7 @@ import Grid from '@material-ui/core/Grid'
 import paytracksScreenshot from '../assets/images/paytracks-screenshot.png'
 import toDoListScreenshot from '../assets/images/to-do-list-screenshot.png'
 import panaceaUserScreenshot from '../assets/images/panacea-user-screenshot.png'
+import communityColorsScreenshot from '../assets/images/community-colors.png'
 
 const useStyles = makeStyles({
   card: {
@@ -94,7 +95,7 @@ export default function MediaCard() {
             <Button
               size="small"
               className="button"
-              href="https://github.com/johngellert/prime-solo-paytracks"
+              href="https://github.com/johngellert/prime-client-panacea"
               target="_blank"
             >
               Github
@@ -153,7 +154,7 @@ export default function MediaCard() {
                 gutterBottom="true"
               >
                 Try it for yourself by clicking on "Visit App"! You will need to
-                register at the login page to get started.
+                register a new user at the login page to get started.
               </Typography>
             </CardContent>
           </CardActionArea>
@@ -170,6 +171,75 @@ export default function MediaCard() {
               size="small"
               className="button"
               href="https://github.com/johngellert/prime-solo-paytracks"
+              target="_blank"
+            >
+              Github
+            </Button>
+          </CardActions>
+        </Card>
+      </Grid>
+
+      {/* community colors */}
+      <Grid item>
+        <Card raised={true} className={classes.card}>
+          <CardActionArea
+            href="https://community-colors.herokuapp.com/"
+            target="_blank"
+          >
+            <CardMedia
+              className={classes.media}
+              image={communityColorsScreenshot}
+              title="Community Colors"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+              Community Colors
+              </Typography>
+              <Typography
+                variant="body2"
+                color="textSecondary"
+                component="p"
+                gutterBottom="true"
+              >
+                A proof of concept application that uses server-sent events to send data to 
+                clients without the client sending a request to the server. Users can change 
+                the background color for any active client sessions. Open the app in several 
+                different browsers on on separate devices, change the color, and see background
+                change on each device on in each separate browser window. 
+              </Typography>
+
+              <Typography
+                variant="body2"
+                color="textSecondary"
+                component="p"
+                gutterBottom="true"
+              >
+                Technologies used: JavaScript, React-Redux, Node.js, Express, and
+                PostgreSQL.
+              </Typography>
+              <Typography
+                variant="body2"
+                color="textSecondary"
+                component="p"
+                gutterBottom="true"
+              >
+                Try it for yourself by clicking on "Visit App"! Open this same app on another device or in a separate browser, change the color and see all active sessions change.
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          <CardActions>
+            <Button
+              size="small"
+              className="button"
+              href="https://community-colors.herokuapp.com/"
+              target="_blank"
+            >
+              Visit App
+            </Button>
+            <Button
+              size="small"
+              className="button"
+              href="https://github.com/johngellert/simple-sse"
               target="_blank"
             >
               Github
@@ -210,7 +280,7 @@ export default function MediaCard() {
                 component="p"
                 gutterBottom="true"
               >
-                Technologies used: JavaScript, jQuery, CSS3, Node.js, Express,
+                Technologies used: JavaScript, jQuery, CSS, Node.js, Express,
                 and PostgreSQL.
               </Typography>
               <Typography
@@ -236,7 +306,7 @@ export default function MediaCard() {
             <Button
               size="small"
               className="button"
-              href="https://gellert-weekend-sql-to-do-list.herokuapp.com/"
+              href="https://github.com/johngellert/weekend-sql-to-do-list"
               target="_blank"
             >
               Github
